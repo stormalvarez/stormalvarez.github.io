@@ -1,0 +1,40 @@
+* { 
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+html {
+    background-color: lightblue
+}
+
+h1, span {
+    text-align: center;
+    margin-top: 350px;
+    font-size: 60px;
+}
+
+h2 {
+    text-align: center;
+    font-size: 30px;
+    margin-top: 5px;
+}
+
+.social-links {
+    text-align: center;
+}
+
+legend {
+    text-align: center;
+    margin-top: 150px;
+}
+
+.uk-margin {
+    text-align: center;
+}
+
+button {
+    color: purple;
+}
+
+.uk-card {
+    margin-top: 150px;
+}

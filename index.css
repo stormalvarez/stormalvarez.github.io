@@ -8,8 +8,8 @@ html {
 
 h1, span {
     text-align: center;
-    margin-top: 350px;
-    font-size: 60px;
+    margin-top: 35.70vh;
+    font-size: 4.38vmax;
     word-spacing: -4.5px;
 }
 
@@ -40,4 +40,3 @@ legend {
 .uk-navbar-nav {
     padding-top: 0.5px;
 }
-

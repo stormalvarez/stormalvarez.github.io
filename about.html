@@ -5,7 +5,7 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.3.1/dist/css/uikit.min.css">
-        <link rel="stylesheet" href="index.css">
+        <link rel="stylesheet" href="Portfolio.css">
         <link rel="stylesheet" href="css/uikit.min.css">
         <link href="https://fonts.googleapis.com/css?family=Work+Sans&display=swap" rel="stylesheet">
         <script src="Portfolio.js"></script>
@@ -14,29 +14,31 @@
     </head>
     <body>
         <nav class="uk-navbar-container uk-navbar-transparent" uk-navbar>
-            <div class="uk-navbar-center uk-align-center">
+            <div class="uk-navbar-left">
                 <ul class="uk-navbar-nav">
-                    <li class="uk-parent"><a href="index.html">Home</a></li>
-                    <li class="uk-parent"><a href="about.html">About</a></li>
-                    <li class="uk-parent"><a href="projects.html">Projects</a></li>
-                    <li class="uk-parent"><a href="contact.html">Contact Me</a></li>
+                    <li class="uk-parent"><a href="Portfolio.html" uk-icon="icon: home">Home</a></li>
+                    <li class="uk-parent"><a href="about.html" uk-icon="icon: user">About</a></li>
+                    <li class="uk-parent"><a href="projects.html" uk-icon="icon: code">Projects</a></li>
+                    <!--<li class="uk-parent"><a href="contact.html" uk-icon="icon: pencil">Contact Me</a></li>-->
                 </ul>
             </div>
         </nav> 
+        <img class="uk-border-circle uk-align-center" data-src="Twitter.jpg" width="225" height="225" alt="border-circle" uk-img>
         <div class="uk-card uk-card-default uk-card-body  uk-align-center uk-width-1-2@m">
             <p>I'm an inspiring programmer and Full Stack Developer, graduated with an AS degree
                 in Computer Science from the University of Grantham in 2019.</p>                   
             <p>On the frontend I'm currently learning Vue.js and React, and the backend<br>
                 learning PHP and MySQL. I have also worked with Python and C++.</p>
             <p>When I'm not coding I am engaging in my other hobby playing Video Games,
-                mostly Fighting Games. I also workout, and read about new technology.</p> 
+                mostly Fighting Games. I also workout, and read about new technology.</p>
+            <p>Below are my links, Contact Me!</p> 
         </div>
         <div class="social-links">
             <a href="https://github.com/stormalvarez" uk-icon-button uk-icon="icon: github; ratio: 1.5"></a>
             <span class="space">&nbsp;</span>
-            <a href="https://www.linkedin.com/in/storm-alvarez-498715ba/" uk-icon="icon: linkedin; ratio: 1.5"></a>
+            <a href="https://www.linkedin.com/in/storm-alvarez-498715ba/" uk-icon="icon: linkedin; ratio: 1.6"></a>
             <span class="space">&nbsp;</span>
-            <a href="mailto: storm.alvarez@yahoo.com" uk-icon="icon: mail; ratio: 1.5"></a>
+            <a href="mailto: storm.alvarez@yahoo.com" uk-icon="icon: mail; ratio: 1.8"></a>
         </div>
     </body>
 </html>
